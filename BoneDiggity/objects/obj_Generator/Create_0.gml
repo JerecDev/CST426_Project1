@@ -1,3 +1,6 @@
+window_set_cursor(cr_none);
+cursor_sprite = spr_hammer;
+
 //Sets definite position of the generator
 //Spawns the objects to dig up
 randomize(); //Randomizes seed(for other random values)
