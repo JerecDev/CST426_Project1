@@ -4,6 +4,11 @@
     {"id":{"name":"obj_Drag_N_Click","path":"objects/obj_Drag_N_Click/obj_Drag_N_Click.yy",},"order":4,},
     {"id":{"name":"spr_Block","path":"sprites/spr_Block/spr_Block.yy",},"order":0,},
     {"id":{"name":"obj_Dirt","path":"objects/obj_Dirt/obj_Dirt.yy",},"order":2,},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"dirtDig","path":"sounds/dirtDig/dirtDig.yy",},"order":2,},
+    {"id":{"name":"spr_BoneDiggity","path":"sprites/spr_BoneDiggity/spr_BoneDiggity.yy",},"order":6,},
+>>>>>>> Stashed changes
     {"id":{"name":"spr_Dirt","path":"sprites/spr_Dirt/spr_Dirt.yy",},"order":4,},
     {"id":{"name":"dirtDig","path":"sounds/dirtDig/dirtDig.yy",},"order":2,},
     {"id":{"name":"rockHit","path":"sounds/rockHit/rockHit.yy",},"order":3,},
