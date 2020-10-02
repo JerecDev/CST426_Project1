@@ -5,7 +5,6 @@ randomize(); //Randomizes seed(for other random values)
 //For Generation Purposes
 cell = 64;
 
-
 //Summons the ToolKit
 instance_create_depth(mouse_x,mouse_y, -2, obj_ToolKit);
 
@@ -24,9 +23,6 @@ instance3_x = random_range(32,608); //sets spawn of object within the x-bounds o
 instance3_y = random_range(32,328); //sets spawn of object within the y-bounds of the room
 
 
-show_debug_message(instance1_x);
-show_debug_message(instance1_y);
-
 
 //Creating the Objects
 //Spawn the first artifact
@@ -37,19 +33,31 @@ instance_create_depth(instance3_x, instance3_y, 0, obj_Block);
 
 //Then Spawns the upper tiles.(Dirt Layer)
 //Iterate through each cell and create a dirt block
-instance_create_depth(0,0, -1, obj_Dirt);
-instance_create_depth(0,64, -1, obj_Dirt);
-instance_create_depth(0,128, -1, obj_Dirt);
-instance_create_depth(0,192, -1, obj_Dirt);
-instance_create_depth(0,256, -1, obj_Dirt);
-instance_create_depth(0,320, -1, obj_Dirt);
+var i;
+for(i = 0; i < 10; i += 1)
+{
+	instance_create_depth(cell * i,0, -1, obj_Dirt);
+	instance_create_depth(cell * i,64, -1, obj_Dirt);
+	instance_create_depth(cell * i,128, -1, obj_Dirt);
+	instance_create_depth(cell * i,192, -1, obj_Dirt);
+	instance_create_depth(cell * i,256, -1, obj_Dirt);
+	instance_create_depth(cell * i,320, -1, obj_Dirt);
+}
 
-instance_create_depth(cell,0, -1, obj_Dirt);
-instance_create_depth(cell,64, -1, obj_Dirt);
-instance_create_depth(cell,128, -1, obj_Dirt);
-instance_create_depth(cell,192, -1, obj_Dirt);
-instance_create_depth(cell,256, -1, obj_Dirt);
-instance_create_depth(cell,320, -1, obj_Dirt);
+/*
+instance_create_depth(cell * 0,0, -1, obj_Dirt);
+instance_create_depth(cell * 0,64, -1, obj_Dirt);
+instance_create_depth(cell * 0,128, -1, obj_Dirt);
+instance_create_depth(cell * 0,192, -1, obj_Dirt);
+instance_create_depth(cell * 0,256, -1, obj_Dirt);
+instance_create_depth(cell * 0,320, -1, obj_Dirt);
+
+instance_create_depth(cell * 1,0, -1, obj_Dirt);
+instance_create_depth(cell * 1,64, -1, obj_Dirt);
+instance_create_depth(cell * 1,128, -1, obj_Dirt);
+instance_create_depth(cell * 1,192, -1, obj_Dirt);
+instance_create_depth(cell * 1,256, -1, obj_Dirt);
+instance_create_depth(cell * 1,320, -1, obj_Dirt);
 
 instance_create_depth(cell * 2,0, -1, obj_Dirt);
 instance_create_depth(cell * 2,64, -1, obj_Dirt);
@@ -113,3 +121,5 @@ instance_create_depth(cell * 10,128, -1, obj_Dirt);
 instance_create_depth(cell * 10,192, -1, obj_Dirt);
 instance_create_depth(cell * 10,256, -1, obj_Dirt);
 instance_create_depth(cell * 10,320, -1, obj_Dirt);
+
+*/

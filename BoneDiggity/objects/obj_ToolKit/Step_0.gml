@@ -2,23 +2,6 @@
 x = mouse_x;
 y = mouse_y;
 
-if(mouse_check_button_pressed(mb_left))
-{
-	//if(place_meeting(x,y,obj_Block))
-	//{
-	//	show_debug_message("Hello, IS THIS WORKING?!");	
-	//}
-	
-	//if(place_meeting(x,y,obj_Dirt))
-	//{
-	//	show_debug_message("I am Destroyer, Ender of Worlds");	
-	//}
-}
-
-
-Sound_Test();
-
-
 //State machine to switch between tools
 switch(tool)
 {
