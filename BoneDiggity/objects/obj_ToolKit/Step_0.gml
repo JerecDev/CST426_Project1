@@ -4,17 +4,19 @@ y = mouse_y;
 
 if(mouse_check_button_pressed(mb_left))
 {
-	if(place_meeting(x,y,obj_Block))
-	{
-		show_debug_message("Hello, IS THIS WORKING?!");	
-	}
+	//if(place_meeting(x,y,obj_Block))
+	//{
+	//	show_debug_message("Hello, IS THIS WORKING?!");	
+	//}
 	
-	if(place_meeting(x,y,obj_Dirt))
-	{
-		show_debug_message("I am Destroyer, Ender of Worlds");	
-	}
+	//if(place_meeting(x,y,obj_Dirt))
+	//{
+	//	show_debug_message("I am Destroyer, Ender of Worlds");	
+	//}
 }
 
+
+Sound_Test();
 
 
 //State machine to switch between tools
@@ -66,10 +68,7 @@ switch(tool)
 		cursor_sprite = spr_shovel;
 		
 		//Function(Clears away dirt)
-		if(ActivateTool) && (place_meeting(x,y,obj_DirtBlock))
-		{
-			instance_destroy(obj_DirtBlock);
-		}
+		
 		
 		//Transition to other states
 		if(keyboard_check_pressed(ord("Q")))
