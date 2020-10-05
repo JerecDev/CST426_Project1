@@ -2,23 +2,6 @@
 x = mouse_x;
 y = mouse_y;
 
-if(mouse_check_button_pressed(mb_left))
-{
-	//if(place_meeting(x,y,obj_Block))
-	//{
-	//	show_debug_message("Hello, IS THIS WORKING?!");	
-	//}
-	
-	//if(place_meeting(x,y,obj_Dirt))
-	//{
-	//	show_debug_message("I am Destroyer, Ender of Worlds");	
-	//}
-}
-
-
-Sound_Test();
-
-
 //State machine to switch between tools
 switch(tool)
 {
@@ -29,12 +12,12 @@ switch(tool)
 		
 		//Function(Break Big Rocks)
 		
-		if(keyboard_check_pressed(ord("W")))
+		if(keyboard_check_pressed(ord("W"))) && (pickDurability > 0)
 		{
 			tool = "pick"
 		}
 		
-		if(keyboard_check_pressed(ord("E")))
+		if(keyboard_check_pressed(ord("E"))) && (shovelDurability > 0)
 		{
 			tool = "shovel";
 		}
@@ -49,13 +32,13 @@ switch(tool)
 		//Function(Break small rocks)
 		
 		//Transition to other states
-		if(keyboard_check_pressed(ord("Q")))
+		if(keyboard_check_pressed(ord("Q"))) && (hammerDurability > 0)
 		{
 			tool = "hammer";
 		}
 		
 		
-		if(keyboard_check_pressed(ord("E")))
+		if(keyboard_check_pressed(ord("E"))) && (shovelDurability > 0)
 		{
 			tool = "shovel";
 		}
@@ -71,12 +54,12 @@ switch(tool)
 		
 		
 		//Transition to other states
-		if(keyboard_check_pressed(ord("Q")))
+		if(keyboard_check_pressed(ord("Q"))) && (hammerDurability > 0)
 		{
 			tool = "hammer";
 		}
 
-		if(keyboard_check_pressed(ord("W")))
+		if(keyboard_check_pressed(ord("W"))) && (pickDurability > 0)
 		{
 			tool = "pick";
 		}
