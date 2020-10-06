@@ -1,6 +1,5 @@
 function Sound_Test(string){
 	
-	
 	if (argument0 == "shovel")
 	{
 		audio_sound_pitch(dirtDig, random_range(.4, 1.2));

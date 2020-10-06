@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Block",
-    "path": "sprites/spr_Block/spr_Block.yy",
+    "name": "spr_UIFillin",
+    "path": "sprites/spr_UIFillin/spr_UIFillin.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_Block","path":"objects/obj_Block/obj_Block.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Block",
+  "name": "obj_UIFillin",
   "tags": [],
   "resourceType": "GMObject",
 }

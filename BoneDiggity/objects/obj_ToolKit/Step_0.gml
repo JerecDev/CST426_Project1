@@ -12,12 +12,12 @@ switch(tool)
 		
 		//Function(Break Big Rocks)
 		
-		if(keyboard_check_pressed(ord("W"))) && (pickDurability > 0)
+		if(keyboard_check_pressed(ord("W"))) && (global.pickDurability > 0)
 		{
 			tool = "pick"
 		}
 		
-		if(keyboard_check_pressed(ord("E"))) && (shovelDurability > 0)
+		if(keyboard_check_pressed(ord("E"))) && (global.shovelDurability > 0)
 		{
 			tool = "shovel";
 		}
@@ -32,13 +32,13 @@ switch(tool)
 		//Function(Break small rocks)
 		
 		//Transition to other states
-		if(keyboard_check_pressed(ord("Q"))) && (hammerDurability > 0)
+		if(keyboard_check_pressed(ord("Q"))) && (global.hammerDurability > 0)
 		{
 			tool = "hammer";
 		}
 		
 		
-		if(keyboard_check_pressed(ord("E"))) && (shovelDurability > 0)
+		if(keyboard_check_pressed(ord("E"))) && (global.shovelDurability > 0)
 		{
 			tool = "shovel";
 		}
@@ -54,12 +54,12 @@ switch(tool)
 		
 		
 		//Transition to other states
-		if(keyboard_check_pressed(ord("Q"))) && (hammerDurability > 0)
+		if(keyboard_check_pressed(ord("Q"))) && (global.hammerDurability > 0)
 		{
 			tool = "hammer";
 		}
 
-		if(keyboard_check_pressed(ord("W"))) && (pickDurability > 0)
+		if(keyboard_check_pressed(ord("W"))) && (global.pickDurability > 0)
 		{
 			tool = "pick";
 		}
