@@ -7,14 +7,27 @@ draw_text(1055, 10, "Score:" + string(global.points));
 if(instance_exists(obj_ToolKit))
 {
 	//Shovel Durability
-	draw_sprite_stretched(spr_toolHPFillIn, 0, 1055, 150, (global.shovelDurability/global.SDurMax) * (192), 24);
+	if (global.shovelDurability > 80)
+	{
+		draw_sprite_stretched(spr_toolHPFillInGreen, 0, 1055, 150, (global.shovelDurability/global.SDurMax) * (192), 24);
+	}
+	
+	if (global.shovelDurability <= 80 && global.shovelDurability > 40)
+	{
+		draw_sprite_stretched(spr_toolHPFillInYellow, 0, 1055, 150, (global.shovelDurability/global.SDurMax) * (192), 24);
+	}
+	if (global.shovelDurability <= 40)
+	{
+		draw_sprite_stretched(spr_toolHPFillInRed, 0, 1055, 150, (global.shovelDurability/global.SDurMax) * (192), 24);
+	}
+
 	draw_sprite(spr_toolHPbar, -100, 1055, 150);
 	
 	//Hammer Durability
-	draw_sprite_stretched(spr_toolHPFillIn, 0, 1055, 200, (global.hammerDurability/global.HDurMax) * (192), 24);
+	draw_sprite_stretched(spr_toolHPFillInGreen, 0, 1055, 200, (global.hammerDurability/global.HDurMax) * (192), 24);
 	draw_sprite(spr_toolHPbar, -100, 1055, 200);
 	
 	//Pick Durability
-	draw_sprite_stretched(spr_toolHPFillIn, 0, 1055, 250, (global.pickDurability/global.PDurMax) * (192), 24);
+	draw_sprite_stretched(spr_toolHPFillInGreen, 0, 1055, 250, (global.pickDurability/global.PDurMax) * (192), 24);
 	draw_sprite(spr_toolHPbar, -100, 1055, 250);
 }

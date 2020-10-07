@@ -8,6 +8,10 @@ if(mouse_check_button(mb_left)) && (global.shovelDurability > 0)
 			Sound_Test(tool);
 			instance_destroy(other);
 			//Need a sound when the tool breaks
+			if (global.shovelDurability <= 3)
+			{
+				Sound_Test("toolBreak");
+			}
 			//Sprite when the tool is broken
 		}
 	}

@@ -7,5 +7,9 @@ if(mouse_check_button_pressed(mb_left))
 		{
 			Sound_Test(tool);
 		}
+		if (tool = "hammer")
+		{
+			Sound_Test(tool);
+		}
 	}
 }
