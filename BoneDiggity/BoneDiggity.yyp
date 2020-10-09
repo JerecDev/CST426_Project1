@@ -8,6 +8,7 @@
     {"id":{"name":"obj_Dirt","path":"objects/obj_Dirt/obj_Dirt.yy",},"order":2,},
     {"id":{"name":"dirtDig","path":"sounds/dirtDig/dirtDig.yy",},"order":2,},
     {"id":{"name":"spr_BoneDiggity","path":"sprites/spr_BoneDiggity/spr_BoneDiggity.yy",},"order":6,},
+    {"id":{"name":"inGameMusic","path":"sounds/inGameMusic/inGameMusic.yy",},"order":6,},
     {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},"order":2,},
     {"id":{"name":"spr_Dirt","path":"sprites/spr_Dirt/spr_Dirt.yy",},"order":4,},
     {"id":{"name":"spr_toolHPFillInGreen","path":"sprites/spr_toolHPFillInGreen/spr_toolHPFillInGreen.yy",},"order":9,},

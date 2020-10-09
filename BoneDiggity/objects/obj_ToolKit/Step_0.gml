@@ -70,3 +70,8 @@ switch(tool)
 	
 }
 
+//Checking to see if music is still playing
+
+if !audio_is_playing(inGameMusic)
+	audio_play_sound(inGameMusic, 10, false);
+

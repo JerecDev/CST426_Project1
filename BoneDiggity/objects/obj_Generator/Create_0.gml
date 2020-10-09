@@ -9,7 +9,6 @@ cell = 32//64;
 instance_create_depth(mouse_x,mouse_y, -2, obj_ToolKit);
 
 
-
 //Artifact 1
 instance1_x = random_range(32,480); //sets spawn of object within the x-bounds of the room
 instance1_y = random_range(32,328); //sets spawn of object within the y-bounds of the room
