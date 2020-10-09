@@ -12,12 +12,12 @@ switch(tool)
 		
 		//Function(Break Big Rocks)
 		
-		if(keyboard_check_pressed(ord("W")))
+		if(keyboard_check_pressed(ord("W"))) && (global.pickDurability > 0)
 		{
 			tool = "pick"
 		}
 		
-		if(keyboard_check_pressed(ord("E")))
+		if(keyboard_check_pressed(ord("E"))) && (global.shovelDurability > 0)
 		{
 			tool = "shovel";
 		}
@@ -32,13 +32,13 @@ switch(tool)
 		//Function(Break small rocks)
 		
 		//Transition to other states
-		if(keyboard_check_pressed(ord("Q")))
+		if(keyboard_check_pressed(ord("Q"))) && (global.hammerDurability > 0)
 		{
 			tool = "hammer";
 		}
 		
 		
-		if(keyboard_check_pressed(ord("E")))
+		if(keyboard_check_pressed(ord("E"))) && (global.shovelDurability > 0)
 		{
 			tool = "shovel";
 		}
@@ -54,12 +54,12 @@ switch(tool)
 		
 		
 		//Transition to other states
-		if(keyboard_check_pressed(ord("Q")))
+		if(keyboard_check_pressed(ord("Q"))) && (global.hammerDurability > 0)
 		{
 			tool = "hammer";
 		}
 
-		if(keyboard_check_pressed(ord("W")))
+		if(keyboard_check_pressed(ord("W"))) && (global.pickDurability > 0)
 		{
 			tool = "pick";
 		}
@@ -69,4 +69,9 @@ switch(tool)
 	
 	
 }
+
+//Checking to see if music is still playing
+
+if !audio_is_playing(inGameMusic)
+	audio_play_sound(inGameMusic, 10, false);
 
