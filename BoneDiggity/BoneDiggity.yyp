@@ -48,10 +48,10 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
-    {"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},
-    {"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},
     {"name":"MenuMaybe","path":"rooms/MenuMaybe/MenuMaybe.yy",},
+    {"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},
+    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
