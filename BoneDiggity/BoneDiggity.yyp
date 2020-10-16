@@ -14,6 +14,7 @@
     {"id":{"name":"fnt_UI","path":"fonts/fnt_UI/fnt_UI.yy",},"order":0,},
     {"id":{"name":"spr_shovel","path":"sprites/spr_shovel/spr_shovel.yy",},"order":3,},
     {"id":{"name":"TransitionToMenu","path":"scripts/TransitionToMenu/TransitionToMenu.yy",},"order":1,},
+    {"id":{"name":"MenuSXO","path":"rooms/MenuSXO/MenuSXO.yy",},"order":3,},
     {"id":{"name":"spr_Dirt_small","path":"sprites/spr_Dirt_small/spr_Dirt_small.yy",},"order":7,},
     {"id":{"name":"snd_menu_switch","path":"sounds/snd_menu_switch/snd_menu_switch.yy",},"order":4,},
     {"id":{"name":"s_Menu","path":"sounds/s_Menu/s_Menu.yy",},"order":0,},
@@ -52,6 +53,7 @@
     {"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},
+    {"name":"MenuSXO","path":"rooms/MenuSXO/MenuSXO.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
