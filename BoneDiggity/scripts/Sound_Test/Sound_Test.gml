@@ -24,6 +24,10 @@ function Sound_Test(string){
 	{
 		audio_play_sound(inGameMusic, 10, false);
 	}
+		else if (argument0 == "menuMusic" && global.musicState == "true")
+	{
+		audio_play_sound(menuMusic, 10, false);
+	}
 	else if (argument0 == "toggleMusic")
 	{
 		if (global.musicState == "false")
@@ -35,6 +39,7 @@ function Sound_Test(string){
 		else
 		{
 			global.musicState = "false";
+			audio_stop_sound(menuMusic);
 			show_debug_message("music off");
 		}		
 	}
