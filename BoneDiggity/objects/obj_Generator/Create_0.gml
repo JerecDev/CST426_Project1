@@ -1,4 +1,3 @@
-
 //Sets definite position of the generator
 //Spawns the objects to dig up
 randomize(); //Randomizes seed(for other random values)
@@ -8,7 +7,6 @@ cell = 32//64;
 
 //Summons the ToolKit
 instance_create_depth(mouse_x,mouse_y, -2, obj_ToolKit);
-
 
 
 //Artifact 1
