@@ -1,12 +1,9 @@
 {
-  "spriteId": {
-    "name": "spr_Dirt_Texture",
-    "path": "sprites/spr_Dirt_Texture/spr_Dirt_Texture.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -20,7 +17,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_soundStuff","path":"objects/obj_soundStuff/obj_soundStuff.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Dirt",
+  "name": "obj_soundStuff",
   "tags": [],
   "resourceType": "GMObject",
 }

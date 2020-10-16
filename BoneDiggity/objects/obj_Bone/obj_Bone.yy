@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_Dirt_Texture",
-    "path": "sprites/spr_Dirt_Texture/spr_Dirt_Texture.yy",
+    "name": "spr_SingleBonePx",
+    "path": "sprites/spr_SingleBonePx/spr_SingleBonePx.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_Block",
+    "path": "objects/obj_Block/obj_Block.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Dirt",
+  "name": "obj_Bone",
   "tags": [],
   "resourceType": "GMObject",
 }

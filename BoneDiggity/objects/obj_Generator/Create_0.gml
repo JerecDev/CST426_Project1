@@ -25,9 +25,9 @@ instance3_y = random_range(32,328); //sets spawn of object within the y-bounds o
 
 //Creating the Objects
 //Spawn the first artifact
-instance_create_depth(instance1_x, instance1_y, 0, obj_Block);
-instance_create_depth(instance2_x, instance2_y, 0, obj_Block);
-instance_create_depth(instance3_x, instance3_y, 0, obj_Block);
+instance_create_depth(instance1_x, instance1_y, -101, obj_Diamond);
+instance_create_depth(instance2_x, instance2_y, -101, obj_Bone);
+instance_create_depth(instance3_x, instance3_y, -101, obj_Block);
 
 
 //Then Spawns the upper tiles.(Dirt Layer)
@@ -48,18 +48,21 @@ for(i = 0; i < 10; i += 1)
 //This is for Small Dirt
 for(i = 0; i < 16; i += 1)
 {
-	instance_create_depth(cell * i,0, -1, obj_Dirt);
-	instance_create_depth(cell * i,32, -1, obj_Dirt);
-	instance_create_depth(cell * i,64, -1, obj_Dirt);
-	instance_create_depth(cell * i,96, -1, obj_Dirt);
-	instance_create_depth(cell * i,128, -1, obj_Dirt);
-	instance_create_depth(cell * i,160, -1, obj_Dirt);
-	instance_create_depth(cell * i,192, -1, obj_Dirt);
-	instance_create_depth(cell * i,224, -1, obj_Dirt);
-	instance_create_depth(cell * i,256, -1, obj_Dirt);
-	instance_create_depth(cell * i,288, -1, obj_Dirt);
-	instance_create_depth(cell * i,320, -1, obj_Dirt);
-	instance_create_depth(cell * i,352, -1, obj_Dirt);
+	instance_create_depth(cell * i,0, -102, obj_Dirt);
+	instance_create_depth(cell * i,32, -102, obj_Dirt);
+	instance_create_depth(cell * i,64, -102, obj_Dirt);
+	instance_create_depth(cell * i,96, -102, obj_Dirt);
+	instance_create_depth(cell * i,128, -102, obj_Dirt);
+	instance_create_depth(cell * i,160, -102, obj_Dirt);
+	instance_create_depth(cell * i,192, -102, obj_Dirt);
+	instance_create_depth(cell * i,224, -102, obj_Dirt);
+	instance_create_depth(cell * i,256, -102, obj_Dirt);
+	instance_create_depth(cell * i,288, -102, obj_Dirt);
+	instance_create_depth(cell * i,320, -102, obj_Dirt);
+	instance_create_depth(cell * i,352, -102, obj_Dirt);
 }
 
 instance_create_depth(512, 0, -100, obj_UIFillin);
+instance_create_depth(0,0, 0, obj_Drag_N_Click);
+
+instance_create_depth(576, 300, -101, obj_CollectionBox);

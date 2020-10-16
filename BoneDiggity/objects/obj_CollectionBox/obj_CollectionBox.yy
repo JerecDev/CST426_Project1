@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Dirt_Texture",
-    "path": "sprites/spr_Dirt_Texture/spr_Dirt_Texture.yy",
+    "name": "spr_Crate",
+    "path": "sprites/spr_Crate/spr_Crate.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Dirt",
+  "name": "obj_CollectionBox",
   "tags": [],
   "resourceType": "GMObject",
 }

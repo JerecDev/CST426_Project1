@@ -1,3 +1,4 @@
+if(instance_exists(obj_ToolKit)) && obj_ToolKit.tool = "tongs"{
 if (dragging) {
    with (inst) {
       x = mouse_x + other.mdx;
@@ -17,4 +18,6 @@ else {
          mdy = inst.y - mouse_y;
       }
    }
+}
+
 }

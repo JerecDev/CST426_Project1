@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "s_Menu",
-  "duration": 0.0,
+  "soundFile": "menuMusic.mp3",
+  "duration": 163.877,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_Menu",
+  "name": "menuMusic",
   "tags": [],
   "resourceType": "GMSound",
 }
