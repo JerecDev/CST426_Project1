@@ -17,7 +17,7 @@ switch(tool)
 			tool = "pick"
 		}
 		
-		if(keyboard_check_pressed(ord("E"))) && (global.shovelDurability > 0)
+		if(keyboard_check_pressed(ord("E"))) //&& (global.shovelDurability > 0)
 		{
 			tool = "shovel";
 		}
@@ -43,7 +43,7 @@ switch(tool)
 		}
 		
 		
-		if(keyboard_check_pressed(ord("E"))) && (global.shovelDurability > 0)
+		if(keyboard_check_pressed(ord("E"))) //&& (global.shovelDurability > 0)
 		{
 			tool = "shovel";
 		}
@@ -109,7 +109,7 @@ switch(tool)
 			tool = "pick";
 		}
 		
-		if(keyboard_check_pressed(ord("E"))) && (global.shovelDurability > 0)
+		if(keyboard_check_pressed(ord("E"))) //&& (global.shovelDurability > 0)
 		{
 			tool = "shovel";
 		}

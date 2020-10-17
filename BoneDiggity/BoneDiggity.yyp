@@ -4,6 +4,7 @@
     {"id":{"name":"obj_Generator","path":"objects/obj_Generator/obj_Generator.yy",},"order":1,},
     {"id":{"name":"obj_Drag_N_Click","path":"objects/obj_Drag_N_Click/obj_Drag_N_Click.yy",},"order":4,},
     {"id":{"name":"spr_Block","path":"sprites/spr_Block/spr_Block.yy",},"order":0,},
+    {"id":{"name":"obj_OptionsGenerator","path":"objects/obj_OptionsGenerator/obj_OptionsGenerator.yy",},"order":12,},
     {"id":{"name":"spr_Diamond","path":"sprites/spr_Diamond/spr_Diamond.yy",},"order":18,},
     {"id":{"name":"hammer","path":"sounds/hammer/hammer.yy",},"order":5,},
     {"id":{"name":"obj_Dirt","path":"objects/obj_Dirt/obj_Dirt.yy",},"order":2,},
