@@ -1,7 +1,10 @@
 
 var i = 0;
-draw_text(320, 64, "You won! Play again?")
-draw_text_colour(320, 64, "You won! Play again?", c_ltgray, c_ltgray, c_ltgray, c_ltgray, 1);
+draw_text_colour(320, 64, "You won! Thanks for playing!", c_ltgray, c_ltgray, c_ltgray, c_ltgray, 1);
+draw_text_colour(320, 96, "Created by: Matthew Reyes Zachary Abbett \n Christiana Libhart and Jaclyn Libhart!"
+, c_ltgray, c_ltgray, c_ltgray, c_ltgray, 1);
+
+
 repeat(buttons) 
 {
     draw_set_font(Bahnschrift_Regular);
