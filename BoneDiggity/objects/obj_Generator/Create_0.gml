@@ -27,7 +27,7 @@ instance3_y = random_range(32,328); //sets spawn of object within the y-bounds o
 //Spawn the first artifact
 instance_create_depth(instance1_x, instance1_y, -101, obj_Diamond);
 instance_create_depth(instance2_x, instance2_y, -101, obj_Bone);
-instance_create_depth(instance3_x, instance3_y, -101, obj_Block);
+instance_create_depth(instance3_x, instance3_y, -101, obj_Ruby);
 
 
 //Then Spawns the upper tiles.(Dirt Layer)

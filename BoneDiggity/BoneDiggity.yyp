@@ -49,7 +49,7 @@
     {"id":{"name":"rockHit","path":"sounds/rockHit/rockHit.yy",},"order":3,},
     {"id":{"name":"spr_CollectionBin","path":"sprites/spr_CollectionBin/spr_CollectionBin.yy",},"order":17,},
     {"id":{"name":"Sound_Test","path":"scripts/Sound_Test/Sound_Test.yy",},"order":0,},
-    {"id":{"name":"obj_ruby","path":"objects/obj_ruby/obj_ruby.yy",},"order":14,},
+    {"id":{"name":"obj_Ruby","path":"objects/obj_Ruby/obj_Ruby.yy",},"order":14,},
     {"id":{"name":"spr_toolHPFillInYellow","path":"sprites/spr_toolHPFillInYellow/spr_toolHPFillInYellow.yy",},"order":11,},
     {"id":{"name":"spr_tool_hitbox","path":"sprites/spr_tool_hitbox/spr_tool_hitbox.yy",},"order":5,},
     {"id":{"name":"spr_toolHPbar","path":"sprites/spr_toolHPbar/spr_toolHPbar.yy",},"order":8,},
