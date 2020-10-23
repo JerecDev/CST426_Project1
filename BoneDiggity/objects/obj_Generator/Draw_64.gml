@@ -24,6 +24,7 @@ if(instance_exists(obj_ToolKit))
 
 	draw_sprite(spr_toolHPbar, -100, 1055, 150);
 	
+	/*
 	//Hammer Durability
 	draw_sprite_stretched(spr_toolHPFillInGreen, 0, 1055, 200, (global.hammerDurability/global.HDurMax) * (192), 24);
 	draw_sprite(spr_toolHPbar, -100, 1055, 200);
@@ -31,4 +32,5 @@ if(instance_exists(obj_ToolKit))
 	//Pick Durability
 	draw_sprite_stretched(spr_toolHPFillInGreen, 0, 1055, 250, (global.pickDurability/global.PDurMax) * (192), 24);
 	draw_sprite(spr_toolHPbar, -100, 1055, 250);
+	*/
 }
