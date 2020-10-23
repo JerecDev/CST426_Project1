@@ -128,6 +128,12 @@ switch(tool)
 if (!audio_is_playing(inGameMusic))
 {
 	Sound_Test("gameMusic");
-	//audio_play_sound(inGameMusic, 10, false);
+}
+
+if(global.points >= 3)
+{
+	instance_destroy(obj_GameController)
+	room_goto(Inbtwn);
+	audio_stop_sound(inGameMusic);
 }
 
