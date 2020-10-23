@@ -2,7 +2,7 @@
 draw_set_font(fnt_UI);
 //Points
 draw_set_color(c_black);
-draw_text(1055, 10, "Score:" + string(global.points));
+draw_text(1055+95, 10, "Score:" + string(global.points)); //95 is the offset here
 
 if(instance_exists(obj_ToolKit))
 {

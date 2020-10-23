@@ -14,7 +14,7 @@ switch (menu_index)
 		
 	//Back to menu
     case 2:
-		room_goto(MenuSXO);
+		room_goto(MainMenu);
         break;
     
 }

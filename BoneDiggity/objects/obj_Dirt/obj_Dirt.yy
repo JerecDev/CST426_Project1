@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Dirt_small",
-    "path": "sprites/spr_Dirt_small/spr_Dirt_small.yy",
+    "name": "spr_Dirt_Texture",
+    "path": "sprites/spr_Dirt_Texture/spr_Dirt_Texture.yy",
   },
   "solid": false,
   "visible": true,
