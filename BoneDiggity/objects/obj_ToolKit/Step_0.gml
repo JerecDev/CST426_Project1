@@ -98,6 +98,17 @@ switch(tool)
 		
 		cursor_sprite = spr_Tongs;
 		
+		
+		if(mouse_check_button(mb_left))
+		{
+			cursor_sprite = spr_TongsClosed;
+		}
+		
+		if(mouse_check_button_released(mb_left))
+		{
+			cursor_sprite = spr_Tongs;
+		}
+		
 		//Transition to other states
 		if(keyboard_check_pressed(ord("Q"))) && (global.hammerDurability > 0)
 		{
@@ -115,8 +126,6 @@ switch(tool)
 		}
 		
 		
-		
-		
 		#endregion
 		break;
 	
@@ -128,6 +137,12 @@ switch(tool)
 if (!audio_is_playing(inGameMusic))
 {
 	Sound_Test("gameMusic");
-	//audio_play_sound(inGameMusic, 10, false);
+}
+
+if(global.points >= 3)
+{
+	instance_destroy(obj_GameController)
+	room_goto(Inbtwn);
+	audio_stop_sound(inGameMusic);
 }
 
