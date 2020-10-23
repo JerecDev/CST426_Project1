@@ -68,11 +68,11 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Credits","path":"rooms/Credits/Credits.yy",},
     {"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},
     {"name":"Options","path":"rooms/Options/Options.yy",},
+    {"name":"Credits","path":"rooms/Credits/Credits.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
